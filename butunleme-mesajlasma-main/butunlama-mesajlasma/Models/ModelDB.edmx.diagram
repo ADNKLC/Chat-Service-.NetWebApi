@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4d9ce5560ed44da298b6e16c5030b4b5" Name="Diagram1" ZoomLevel="98">
+        <EntityTypeShape EntityType="Model.Alici" Width="1.5" PointX="6" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Grup" Width="1.5" PointX="5.875" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.GrupMesaj" Width="1.5" PointX="8.125" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.GrupUye" Width="1.5" PointX="3.625" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Mesaj" Width="1.5" PointX="8.125" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Uye" Width="1.5" PointX="3.625" PointY="3.25" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_Alici_ToMesaj" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Alici_ToUye" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_GrupMesaj_ToGrup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_GrupUye_ToGrup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_GrupMesaj_ToMesaj" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_GrupUye_ToUye" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Mesaj_ToUye" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

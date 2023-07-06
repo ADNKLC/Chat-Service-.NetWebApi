@@ -1,0 +1,98 @@
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\ApplicationInsights.config
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\roslyn\csc.exe
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\roslyn\vbc.exe
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\roslyn\VBCSCompiler.exe
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\butunlama-mesajlasma.dll.config
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\butunlama-mesajlasma.dll
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\butunlama-mesajlasma.pdb
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\EntityFramework.dll
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\EntityFramework.SqlServer.dll
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\Microsoft.AI.Web.dll
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\Microsoft.ApplicationInsights.dll
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\Newtonsoft.Json.dll
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\System.Net.Http.Formatting.dll
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\System.Web.Http.dll
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\System.Web.Http.WebHost.dll
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\EntityFramework.xml
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\EntityFramework.SqlServer.xml
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\Microsoft.AI.Web.xml
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\Microsoft.ApplicationInsights.xml
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\Newtonsoft.Json.xml
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\System.Net.Http.Formatting.xml
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\System.Web.Http.xml
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\System.Web.Http.WebHost.xml
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\obj\Debug\butunlama-mesajlasma.csprojResolveAssemblyReference.cache
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\obj\Debug\butunlama-mesajlasma.dll
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\obj\Debug\butunlama-mesajlasma.pdb
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\Swashbuckle.Core.dll
+C:\Users\BAHA BARUT\Desktop\butunlama-mesajlasma\butunlama-mesajlasma\bin\WebActivatorEx.dll
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\ApplicationInsights.config
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\roslyn\csc.exe
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\roslyn\vbc.exe
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\roslyn\VBCSCompiler.exe
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\butunlama-mesajlasma.dll.config
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\butunlama-mesajlasma.dll
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\butunlama-mesajlasma.pdb
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\EntityFramework.dll
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\EntityFramework.SqlServer.dll
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\Microsoft.AI.Web.dll
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\Microsoft.ApplicationInsights.dll
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\Newtonsoft.Json.dll
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\Swashbuckle.Core.dll
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\System.Net.Http.Formatting.dll
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\System.Web.Http.dll
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\System.Web.Http.WebHost.dll
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\WebActivatorEx.dll
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\EntityFramework.xml
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\EntityFramework.SqlServer.xml
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\Microsoft.AI.Web.xml
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\Microsoft.ApplicationInsights.xml
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\Newtonsoft.Json.xml
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\System.Net.Http.Formatting.xml
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\System.Web.Http.xml
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\bin\System.Web.Http.WebHost.xml
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\obj\Debug\butunlama-mesajlasma.csproj.AssemblyReference.cache
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\obj\Debug\butunlama-mesajlasma.csproj.CoreCompileInputs.cache
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\obj\Debug\butunlama-mesajlasma.csproj.CopyComplete
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\obj\Debug\butunlama-mesajlasma.dll
+C:\Users\adnan\OneDrive\Masaüstü\butunleme-mesajlasma-main\butunlama-mesajlasma\obj\Debug\butunlama-mesajlasma.pdb

@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Alici">
+    <Key>
+      <PropertyRef Name="aliciId" />
+    </Key>
+    <Property Name="aliciId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="uyeId" Type="Int32" Nullable="false" />
+    <Property Name="mesajId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Mesaj" Relationship="Self.FK_Alici_ToMesaj" FromRole="Alici" ToRole="Mesaj" />
+    <NavigationProperty Name="Uye" Relationship="Self.FK_Alici_ToUye" FromRole="Alici" ToRole="Uye" />
+  </EntityType>
+  <EntityType Name="Grup">
+    <Key>
+      <PropertyRef Name="grupId" />
+    </Key>
+    <Property Name="grupId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="grupAdi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="GrupMesaj" Relationship="Self.FK_GrupMesaj_ToGrup" FromRole="Grup" ToRole="GrupMesaj" />
+    <NavigationProperty Name="GrupUye" Relationship="Self.FK_GrupUye_ToGrup" FromRole="Grup" ToRole="GrupUye" />
+  </EntityType>
+  <EntityType Name="GrupMesaj">
+    <Key>
+      <PropertyRef Name="grupMesajId" />
+    </Key>
+    <Property Name="grupMesajId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="mesajId" Type="Int32" Nullable="false" />
+    <Property Name="grupId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Grup" Relationship="Self.FK_GrupMesaj_ToGrup" FromRole="GrupMesaj" ToRole="Grup" />
+    <NavigationProperty Name="Mesaj" Relationship="Self.FK_GrupMesaj_ToMesaj" FromRole="GrupMesaj" ToRole="Mesaj" />
+  </EntityType>
+  <EntityType Name="GrupUye">
+    <Key>
+      <PropertyRef Name="grupUyeId" />
+    </Key>
+    <Property Name="grupUyeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="uyeId" Type="Int32" Nullable="false" />
+    <Property Name="grupId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Grup" Relationship="Self.FK_GrupUye_ToGrup" FromRole="GrupUye" ToRole="Grup" />
+    <NavigationProperty Name="Uye" Relationship="Self.FK_GrupUye_ToUye" FromRole="GrupUye" ToRole="Uye" />
+  </EntityType>
+  <EntityType Name="Mesaj">
+    <Key>
+      <PropertyRef Name="mesajId" />
+    </Key>
+    <Property Name="mesajId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="icerik" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="mesajTarihi" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="gonderenId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Alici" Relationship="Self.FK_Alici_ToMesaj" FromRole="Mesaj" ToRole="Alici" />
+    <NavigationProperty Name="GrupMesaj" Relationship="Self.FK_GrupMesaj_ToMesaj" FromRole="Mesaj" ToRole="GrupMesaj" />
+    <NavigationProperty Name="Uye" Relationship="Self.FK_Mesaj_ToUye" FromRole="Mesaj" ToRole="Uye" />
+  </EntityType>
+  <EntityType Name="Uye">
+    <Key>
+      <PropertyRef Name="uyeId" />
+    </Key>
+    <Property Name="uyeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="uyeAdi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="sifre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Alici" Relationship="Self.FK_Alici_ToUye" FromRole="Uye" ToRole="Alici" />
+    <NavigationProperty Name="GrupUye" Relationship="Self.FK_GrupUye_ToUye" FromRole="Uye" ToRole="GrupUye" />
+    <NavigationProperty Name="Mesaj" Relationship="Self.FK_Mesaj_ToUye" FromRole="Uye" ToRole="Mesaj" />
+    <Property Name="telefon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK_Alici_ToMesaj">
+    <End Role="Mesaj" Type="Self.Mesaj" Multiplicity="1" />
+    <End Role="Alici" Type="Self.Alici" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Mesaj">
+        <PropertyRef Name="mesajId" />
+      </Principal>
+      <Dependent Role="Alici">
+        <PropertyRef Name="mesajId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Alici_ToUye">
+    <End Role="Uye" Type="Self.Uye" Multiplicity="1" />
+    <End Role="Alici" Type="Self.Alici" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Uye">
+        <PropertyRef Name="uyeId" />
+      </Principal>
+      <Dependent Role="Alici">
+        <PropertyRef Name="aliciId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GrupMesaj_ToGrup">
+    <End Role="Grup" Type="Self.Grup" Multiplicity="1" />
+    <End Role="GrupMesaj" Type="Self.GrupMesaj" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Grup">
+        <PropertyRef Name="grupId" />
+      </Principal>
+      <Dependent Role="GrupMesaj">
+        <PropertyRef Name="grupId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GrupUye_ToGrup">
+    <End Role="Grup" Type="Self.Grup" Multiplicity="1" />
+    <End Role="GrupUye" Type="Self.GrupUye" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Grup">
+        <PropertyRef Name="grupId" />
+      </Principal>
+      <Dependent Role="GrupUye">
+        <PropertyRef Name="grupId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GrupMesaj_ToMesaj">
+    <End Role="Mesaj" Type="Self.Mesaj" Multiplicity="1" />
+    <End Role="GrupMesaj" Type="Self.GrupMesaj" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Mesaj">
+        <PropertyRef Name="mesajId" />
+      </Principal>
+      <Dependent Role="GrupMesaj">
+        <PropertyRef Name="mesajId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GrupUye_ToUye">
+    <End Role="Uye" Type="Self.Uye" Multiplicity="1" />
+    <End Role="GrupUye" Type="Self.GrupUye" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Uye">
+        <PropertyRef Name="uyeId" />
+      </Principal>
+      <Dependent Role="GrupUye">
+        <PropertyRef Name="uyeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Mesaj_ToUye">
+    <End Role="Uye" Type="Self.Uye" Multiplicity="1" />
+    <End Role="Mesaj" Type="Self.Mesaj" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Uye">
+        <PropertyRef Name="uyeId" />
+      </Principal>
+      <Dependent Role="Mesaj">
+        <PropertyRef Name="gonderenId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Alici" EntityType="Self.Alici" />
+    <EntitySet Name="Grup" EntityType="Self.Grup" />
+    <EntitySet Name="GrupMesaj" EntityType="Self.GrupMesaj" />
+    <EntitySet Name="GrupUye" EntityType="Self.GrupUye" />
+    <EntitySet Name="Mesaj" EntityType="Self.Mesaj" />
+    <EntitySet Name="Uye" EntityType="Self.Uye" />
+    <AssociationSet Name="FK_Alici_ToMesaj" Association="Self.FK_Alici_ToMesaj">
+      <End Role="Mesaj" EntitySet="Mesaj" />
+      <End Role="Alici" EntitySet="Alici" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Alici_ToUye" Association="Self.FK_Alici_ToUye">
+      <End Role="Uye" EntitySet="Uye" />
+      <End Role="Alici" EntitySet="Alici" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GrupMesaj_ToGrup" Association="Self.FK_GrupMesaj_ToGrup">
+      <End Role="Grup" EntitySet="Grup" />
+      <End Role="GrupMesaj" EntitySet="GrupMesaj" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GrupUye_ToGrup" Association="Self.FK_GrupUye_ToGrup">
+      <End Role="Grup" EntitySet="Grup" />
+      <End Role="GrupUye" EntitySet="GrupUye" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GrupMesaj_ToMesaj" Association="Self.FK_GrupMesaj_ToMesaj">
+      <End Role="Mesaj" EntitySet="Mesaj" />
+      <End Role="GrupMesaj" EntitySet="GrupMesaj" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GrupUye_ToUye" Association="Self.FK_GrupUye_ToUye">
+      <End Role="Uye" EntitySet="Uye" />
+      <End Role="GrupUye" EntitySet="GrupUye" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Mesaj_ToUye" Association="Self.FK_Mesaj_ToUye">
+      <End Role="Uye" EntitySet="Uye" />
+      <End Role="Mesaj" EntitySet="Mesaj" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
