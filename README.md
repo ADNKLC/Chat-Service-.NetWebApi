@@ -1,9 +1,10 @@
 # Chat-Service-.NetWebApi
  
-![bütünleme1](https://github.com/ADNKLC/Chat-Service-.NetWebApi/assets/90527772/483000af-a18e-4d71-a11b-84b1b33f3942)
+
+![bütünleme1](https://github.com/ADNKLC/Chat-Service-.NetWebApi/assets/90527772/c46b10f1-c885-409f-8a22-7fdb4f1ae52d)
 
 
-![bütünleme2](https://github.com/ADNKLC/Chat-Service-.NetWebApi/assets/90527772/c34be3eb-36c3-4151-9f2a-fad53e2678ee)
+![bütünleme2](https://github.com/ADNKLC/Chat-Service-.NetWebApi/assets/90527772/5604c077-cd88-41f9-8b7b-dcaeeeaaa15b)
 
 
-![bütünleme3](https://github.com/ADNKLC/Chat-Service-.NetWebApi/assets/90527772/b615b21c-3bbe-404b-955c-f63a09f0ae66)
+![bütünleme3](https://github.com/ADNKLC/Chat-Service-.NetWebApi/assets/90527772/5acc1d0b-a01a-4650-86dd-d5aefaec99b7)
